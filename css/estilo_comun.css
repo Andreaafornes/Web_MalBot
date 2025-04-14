@@ -1,0 +1,115 @@
+* {
+    font-family: sans-serif, Arial,Verdana,  Tahoma, ;
+}
+
+body{background-color:  rgb(255, 255, 255);}
+
+button {
+    background: #000000;
+    border: none;
+}
+
+.navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(159, 97, 107)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+header {
+    background-color:rgb(56, 56, 56);
+    opacity: 88%;
+    position: fixed;
+    z-index: 9999;
+    padding-right: 0px;
+}
+.navbar {
+    text-align: center;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.menu {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.imagen {
+
+    margin-left: 5%;
+}
+
+#logo_menu_ordenador {
+    
+    background-repeat: no-repeat;
+    width: 15%;
+    margin-right: 40%;
+}
+
+#contenido_menu {
+
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+a:link,
+a:visited {
+    color: #ffffff;
+    text-decoration: none
+}
+
+a:hover {
+    color: #ada9aa;
+}
+
+footer {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    position: relative;
+    padding-top: 50px;
+}
+
+footer img{
+    height: 150px;
+    margin-left: 40%;
+
+}
+
+.btn{background-color: #ffffff;
+    color: white;}
+   .btn:hover{background-color: aliceblue;
+    color: #000000;}
+ 
+ul {
+    margin-top: 10%;
+    list-style: none;
+}
+
+#footer {
+    padding-top: 15px;
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+    margin-left: 5%;
+    padding-bottom: 10px;
+    text-align: center;
+    opacity: 40%;
+}
+
+.redes {
+    text-align: center;
+}
+
+#gmail{
+
+    margin-top: 15px;
+}
+
+#linea {
+    width: 50%;
+    border: 2px solid rgb(71, 71, 71);
+}
+ 
+#espacio {
+    margin-top: 300px;
+    margin-bottom: 200px;
+}

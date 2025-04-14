@@ -1,0 +1,33 @@
+#espacio {
+    margin-top:200px;
+    margin-bottom: 100px;
+  }
+
+.titulo{text-align: center;
+    color:rgb(0, 0, 0);}
+
+#separador_linea{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 50%;
+    border:1px solid rgb(48, 48, 48);}
+
+ .info p, ol li, p{font-size: 20px;
+margin-bottom: 20px;}
+
+.info{text-align: center;
+    margin-bottom: 50px;}
+
+.info #separador_linea{width: 70%;}
+
+ ul li p{font-size: 17px;
+    margin-bottom: 5px;
+font-style: oblique;}
+
+.enlace  a:link,
+.enlace a:visited {
+    color: #000000;
+    text-decoration: none
+}
+
+.enlace  a:hover{color:#995560}

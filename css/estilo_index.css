@@ -1,0 +1,109 @@
+.aviso-cookies {
+    display: block;
+    background: rgb(42, 42, 42);
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 100;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.cookie {
+    width: 90px;
+    position: absolute;
+    top: -50px;
+    left: 40%;
+}
+
+.aviso-cookies p {
+    font: 14px arial;
+    color: white;
+}
+
+h3 {
+    font-family: arial;
+}
+
+#boton_cookie {
+    width: 100%;
+    background: #4c4c4c;
+    border: none;
+    color: rgb(255, 255, 255);
+    font: 16px arial;
+    text-align: center;
+    padding: 10px;
+    transition: .3s ease all;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+#boton_cookie:hover {
+    background: #ffffff;
+    color: #5b1e28;
+}
+
+.enlace {
+    color: #ffffff;
+    font: 15px arial;
+    text-decoration: none;
+}
+
+.cabeceraIndex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    z-index: 0;
+
+}
+
+.cabeceraIndex>img {
+
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 400px;
+
+
+}
+
+.Efectotexto {
+
+    position: relative;
+    display: flex;
+    width: 45%;
+    color: rgb(42, 42, 42);
+    font-size: 90px;
+    padding: 0%;
+    font-family: monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: Impact;
+    animation: typing 2s steps(15);
+    z-index: 1;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+.parallax {
+
+    background-image: url("../contenido/parallaxInicio3.png");
+    min-height: 400px;
+    filter: grayscale(2);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
